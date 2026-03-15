@@ -158,6 +158,13 @@ cd cloud-tech
 # 2. Створити файл змінних
 cp terraform.tfvars.example terraform.tfvars
 # відредагувати terraform.tfvars під свій варіант
+# prefix             = "name"
+# vpc_cidr           = "ip"
+# subnet_a_cidr      = "ip_a"
+# subnet_b_cidr      = "ip_b"
+# web_port           = port
+# apache_server_name = "server_name"
+# apache_doc_root    = "root_folder"
 
 # 3. Ініціалізувати Terraform
 terraform init
